@@ -33,8 +33,9 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/background-header.jpg) no-repeat top center;
    background-size: cover !important;
+   background-attachment: fixed;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
@@ -140,7 +141,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #483D8B; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -179,7 +180,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color:#FF7F50;}
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +188,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #778899;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,13 +204,13 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #483D8B;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 290px;
+   height: 240px;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -219,11 +220,12 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #FFA07A;
+   
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #483D8B;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -329,6 +331,7 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
 }
+
 .illustrator {
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
